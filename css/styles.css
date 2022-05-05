@@ -66,6 +66,10 @@ main #result span {
 }
 
 @media only screen and (max-width : 620px) {
+    body {
+        justify-content: start;
+    }
+
     header h1 {
         font-size: 2rem;
     }
@@ -74,6 +78,7 @@ main #result span {
         text-align: center;
         width: auto;
         flex-direction: column;
+        margin-top: 20%;
     }
 
     input {
@@ -83,6 +88,7 @@ main #result span {
     main #result {
         font-size: 1.5rem;
     }
+
     main #result span {
         font-size: 1rem;
     }

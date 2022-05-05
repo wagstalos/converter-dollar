@@ -28,8 +28,8 @@ function converter() {
     result.innerHTML = valueFormatter("en-US", "USD");
   }
 
-  inputValue.value = "";
-  inputValue.value = "";
+  //   inputValue.value = "";
+  //   inputValue.value = "";
 }
 
 function valueFormatter(locale, currency) {
