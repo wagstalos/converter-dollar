@@ -66,6 +66,9 @@ main #result span {
 }
 
 @media only screen and (max-width : 620px) {
+    h1{
+        font-size: 2rem;
+    }
     .inputs-container {
         text-align: center;
         width: auto;
