@@ -66,9 +66,10 @@ main #result span {
 }
 
 @media only screen and (max-width : 620px) {
-    header h1{
+    header h1 {
         font-size: 2rem;
     }
+
     .inputs-container {
         text-align: center;
         width: auto;
@@ -77,5 +78,12 @@ main #result span {
 
     input {
         margin-bottom: 20px;
+    }
+
+    main #result {
+        font-size: 1.5rem;
+    }
+    main #result span {
+        font-size: 1rem;
     }
 }
