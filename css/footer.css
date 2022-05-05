@@ -1,11 +1,13 @@
-footer{
+footer {
     width: 100%;
-    background-color: #5aba8d;
+    background-color: #dfdfdf;
     padding: 10px;
     text-align: center;
+    position: absolute;
+    bottom: 0;
 }
 
-footer span{
+footer span {
     color: #fff;
     font-size: .8rem;
     font-weight: 500;
