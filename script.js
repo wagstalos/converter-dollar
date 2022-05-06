@@ -2,17 +2,19 @@ let valueDol = document.getElementById("dol");
 
 const fetchDollar = () => {
   const BASE_URL = `http://economia.awesomeapi.com.br/json/last/USD-BRL`;
-  return fetch(BASE_URL)
+  fetch(BASE_URL)
     .then((response) => response.json())
     .then((json) => {
       //console.log(json);
       valueDol.textContent = json.USDBRL.ask;
+      valor = valueDol.textContent;
+      console.log(valor);
     });
 };
 
 fetchDollar();
 
-console.log(fetchDollar);
+//console.log(valueDol.textContent);
 
 const form = document.getElementById("form");
 form.addEventListener("submit", handleSubmit);
