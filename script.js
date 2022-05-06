@@ -1,3 +1,19 @@
+let valueDol = document.getElementById("dol");
+
+const fetchDollar = () => {
+  const BASE_URL = `http://economia.awesomeapi.com.br/json/last/USD-BRL`;
+  return fetch(BASE_URL)
+    .then((response) => response.json())
+    .then((json) => {
+      //console.log(json);
+      valueDol.textContent = json.USDBRL.ask;
+    });
+};
+
+fetchDollar();
+
+console.log(fetchDollar);
+
 const form = document.getElementById("form");
 form.addEventListener("submit", handleSubmit);
 
@@ -24,7 +40,7 @@ function converter() {
     valueConverted = inputValue.value * 5.3;
     result.innerHTML = valueFormatter("pt-BR", "EUR");
   } else if (selectedCurrency.value == "dol") {
-    valueConverted = inputValue.value * 5.03;
+    valueConverted = inputValue.value * 5.09;
     result.innerHTML = valueFormatter("en-US", "USD");
   }
 
