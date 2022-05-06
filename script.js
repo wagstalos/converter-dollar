@@ -1,5 +1,5 @@
 let valueDol = document.getElementById("dol");
-let BASE_URL = "http://economia.awesomeapi.com.br/json/last/USD-BRL";
+let BASE_URL = "https://economia.awesomeapi.com.br/json/last/USD-BRL";
 
 fetch(BASE_URL)
   .then((response) => response.json())
