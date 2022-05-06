@@ -5,7 +5,7 @@ fetch(BASE_URL)
   .then((response) => response.json())
   .then((json) => {
     //valueDol.textContent = json.USDBRL.ask;
-    let dol = (valueDol.innerHTML = json.USDBRL.ask)
+    let dol = (valueDol.innerHTML = json.USDBRL.ask);
     let converterDol = parseInt(dol);
 
     const amount = converterDol;
@@ -18,8 +18,6 @@ fetch(BASE_URL)
     formatBRL(amount);
     //console.log(formatBRL(amount));
   });
-
-
 
 const form = document.getElementById("form");
 form.addEventListener("submit", handleSubmit);
@@ -48,7 +46,7 @@ function converter() {
     result.innerHTML = valueFormatter("pt-BR", "EUR");
   } else if (selectedCurrency.value == "dol") {
     valueConverted = inputValue.value * valueDol.textContent;
-    result.innerHTML = valueFormatter("en-US", "USD");
+    result.innerHTML = valueFormatter("pt-BR", "BRL");
   }
   animeteResult();
   //   inputValue.value = "";
