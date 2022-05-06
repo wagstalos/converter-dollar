@@ -7,8 +7,6 @@ const fetchDollar = () => {
     .then((json) => {
       //console.log(json);
       valueDol.textContent = json.USDBRL.ask;
-      valor = valueDol.textContent;
-      console.log(valor);
     });
 };
 
