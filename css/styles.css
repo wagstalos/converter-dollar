@@ -18,6 +18,9 @@ main {
     border-radius: 4px;
     color: #43ba32;
 }
+#dol::before{
+    content: 'R$ ';
+}
 
 form {
     width: 100%;

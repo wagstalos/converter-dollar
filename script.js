@@ -4,8 +4,22 @@ let BASE_URL = "https://economia.awesomeapi.com.br/json/last/USD-BRL";
 fetch(BASE_URL)
   .then((response) => response.json())
   .then((json) => {
-    valueDol.textContent = json.USDBRL.ask;
+    //valueDol.textContent = json.USDBRL.ask;
+    let dol = (valueDol.innerHTML = json.USDBRL.ask)
+    let converterDol = parseInt(dol);
+
+    const amount = converterDol;
+
+    const formatBRL = (value) => {
+      const options = { style: "currency", currency: "BRL" };
+      return value.toLocaleString("pt-BR", options);
+    };
+
+    formatBRL(amount);
+    //console.log(formatBRL(amount));
   });
+
+
 
 const form = document.getElementById("form");
 form.addEventListener("submit", handleSubmit);
@@ -47,11 +61,11 @@ function valueFormatter(locale, currency) {
     currency: `${currency}`,
   });
   return `<span>🤑 </span>  ${value} <span>🤑 </span> `;
-} hn
+}
 
-function animeteResult(){
-  return result.animate([
-    { transform: 'translateY(50px)'},
-    { transform: 'translateY(0)'},
-  ],{ duration:500 })
+function animeteResult() {
+  return result.animate(
+    [{ transform: "translateY(50px)" }, { transform: "translateY(0)" }],
+    { duration: 500 }
+  );
 }
