@@ -7,10 +7,6 @@ fetch(BASE_URL)
     valueDol.textContent = json.USDBRL.ask;
   });
 
-// setTimeout(() => {
-//   console.log(valueDol.textContent)
-// },300);
-
 const form = document.getElementById("form");
 form.addEventListener("submit", handleSubmit);
 

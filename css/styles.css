@@ -7,6 +7,18 @@ main {
     justify-content: center;
 }
 
+.title{
+    margin-top: 25px;
+}
+#dol {
+    margin-top: 10px;
+    font-weight: bold;
+    background-color: #e6e6e6;
+    padding: 6px 14px;
+    border-radius: 4px;
+    color: #43ba32;
+}
+
 form {
     width: 100%;
     margin-bottom: 12%;
