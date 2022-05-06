@@ -1,18 +1,15 @@
 let valueDol = document.getElementById("dol");
+let BASE_URL = "http://economia.awesomeapi.com.br/json/last/USD-BRL";
 
-const fetchDollar = () => {
-  const BASE_URL = `http://economia.awesomeapi.com.br/json/last/USD-BRL`;
-  fetch(BASE_URL)
-    .then((response) => response.json())
-    .then((json) => {
-      //console.log(json);
-      valueDol.textContent = json.USDBRL.ask;
-    });
-};
+fetch(BASE_URL)
+  .then((response) => response.json())
+  .then((json) => {
+    valueDol.textContent = json.USDBRL.ask;
+  });
 
-fetchDollar();
-
-//console.log(valueDol.textContent);
+// setTimeout(() => {
+//   console.log(valueDol.textContent)
+// },300);
 
 const form = document.getElementById("form");
 form.addEventListener("submit", handleSubmit);
@@ -40,7 +37,7 @@ function converter() {
     valueConverted = inputValue.value * 5.3;
     result.innerHTML = valueFormatter("pt-BR", "EUR");
   } else if (selectedCurrency.value == "dol") {
-    valueConverted = inputValue.value * 5.09;
+    valueConverted = inputValue.value * valueDol.textContent;
     result.innerHTML = valueFormatter("en-US", "USD");
   }
 
