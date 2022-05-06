@@ -36,7 +36,7 @@ function converter() {
     valueConverted = inputValue.value * valueDol.textContent;
     result.innerHTML = valueFormatter("en-US", "USD");
   }
-
+  animeteResult();
   //   inputValue.value = "";
   //   inputValue.value = "";
 }
@@ -47,4 +47,11 @@ function valueFormatter(locale, currency) {
     currency: `${currency}`,
   });
   return `<span>🤑 </span>  ${value} <span>🤑 </span> `;
+} hn
+
+function animeteResult(){
+  return result.animate([
+    { transform: 'translateY(50px)'},
+    { transform: 'translateY(0)'},
+  ],{ duration:500 })
 }
