@@ -21,7 +21,7 @@
 
 API: https://docs.awesomeapi.com.br/api-de-moedas
 
-As seguintes ferramentas foram usadas na construção do projeto:
+###Techs
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS]
@@ -29,8 +29,7 @@ As seguintes ferramentas foram usadas na construção do projeto:
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
 - [BT5](https://getbootstrap.com/)
 
-Feito com ❤️ por Wagner Paulo 👋🏽
-Entre em contato!
+Made with ❤️ by Wagner Paulo 👋🏽
 
 [![Linkedin Badge](https://img.shields.io/badge/-Wagner-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wagner-silva-6a163555/)](https://www.linkedin.com/in/wagner-silva-6a163555/)
 [![Gmail Badge](https://img.shields.io/badge/-wagstalos@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wagstalos@gmail.com)](mailto:wagstalos@gmail.com)
