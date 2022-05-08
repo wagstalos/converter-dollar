@@ -1,7 +1,7 @@
 <h1 align="center">Convert dollar </h1>
 
 <h1 align="center">
-    <a href="https://profmanu.com/">🔗 link  do projeto</a>
+    <a href="https://wagstalos.github.io/converter-dollar/">🔗 link  do projeto</a>
 </h1>
 
 ## Description project
