@@ -1,6 +1,3 @@
-# manu
-
-
 <h1 align="center">Convert dollar </h1>
 
 <h1 align="center">
