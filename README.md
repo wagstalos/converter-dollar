@@ -1,13 +1,39 @@
-# Converter-dollar
+# manu
 
-#Technologies
-![Github Html5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![Github css3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
-![Github JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 
-#Descripiton
-Convert dollar to real and show dollar exchange rate via API
+<h1 align="center">Convert dollar </h1>
 
+<h1 align="center">
+    <a href="https://profmanu.com/">🔗 link  do projeto</a>
+</h1>
+
+## Description project
+
+<p align="center">Convert dollar to reais and show dollar quote via API.</p>
+
+<h1 align="center">
+<img src="https://img.shields.io/static/v1?label=Site&message=MAnu&color=3498db&style=for-the-badge&logo="/>
+<img src="https://img.shields.io/static/v1?label=Status&message=finalizado&color=55efc4&style=for-the-badge&logo="/>
+</h1>
+
+### Features
+
+- [X] HTML5
+- [X] CSS
+- [x] JS
 
 API: https://docs.awesomeapi.com.br/api-de-moedas
 
+As seguintes ferramentas foram usadas na construção do projeto:
+
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [CSS]
+- [SASS](https://sass-lang.com/)
+- [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [BT5](https://getbootstrap.com/)
+
+Feito com ❤️ por Wagner Paulo 👋🏽
+Entre em contato!
+
+[![Linkedin Badge](https://img.shields.io/badge/-Wagner-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/wagner-silva-6a163555/)](https://www.linkedin.com/in/wagner-silva-6a163555/)
+[![Gmail Badge](https://img.shields.io/badge/-wagstalos@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wagstalos@gmail.com)](mailto:wagstalos@gmail.com)
