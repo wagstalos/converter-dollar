@@ -25,9 +25,7 @@ API: https://docs.awesomeapi.com.br/api-de-moedas
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [CSS]
-- [SASS](https://sass-lang.com/)
 - [JS](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
-- [BT5](https://getbootstrap.com/)
 
 Made with ❤️ by Wagner Paulo 👋🏽
 
