@@ -33,4 +33,4 @@ Made with ❤️ by Wagner Paulo 👋🏽
 [![Gmail Badge](https://img.shields.io/badge/-wagstalos@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:wagstalos@gmail.com)](mailto:wagstalos@gmail.com)
 
 
-Co-authored-by: PedroMakengo <pedromakengomiguel@gmail.com>
+Co-authored-by: PedroMakengo <pedromakengomiguel@gmail.com> !
