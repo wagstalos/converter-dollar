@@ -1,25 +1,15 @@
-let valueDol = document.getElementById("dol");
-let BASE_URL = "https://economia.awesomeapi.com.br/json/last/USD-BRL";
+var valueDol = document.getElementById("dol");
+const BASE_URL = "https://economia.awesomeapi.com.br/json/last/USD-BRL";
 
 fetch(BASE_URL)
-  .then(response => response.json())
-  .then(json => {
-    let dol = (valueDol.innerHTML = json.USDBRL.ask);
-    let converterDol = parseInt(dol);
-
-    const amount = converterDol;
-
-    const formatBRL = value => {
-      const options = { style: "currency", currency: "BRL" };
-      return value.toLocaleString("pt-BR", options);
-    };
-
-    formatBRL(amount);
+  .then((response) => response.json())
+  .then((json) => {
+    valueDol.textContent = json.USDBRL.ask ;
   });
 
 const form = document.getElementById("form");
 form.addEventListener("submit", handleSubmit);
-
+ 
 const inputValue = document.getElementById("value-real");
 const selectedCurrency = document.getElementById("currency");
 const result = document.getElementById("result");
