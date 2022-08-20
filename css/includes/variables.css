@@ -1,0 +1,9 @@
+:root{
+    --white: #fff;
+    --gray: #e6e6e6;
+    --gray-100: #e4e4e4;
+    --green: #43ba32;
+    --black:#333;
+    --box-shadow: rgba(0, 0, 0, 0.4);
+    --border-radius: 8px;
+}
