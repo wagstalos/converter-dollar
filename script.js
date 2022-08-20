@@ -2,21 +2,19 @@ let valueDol = document.getElementById("dol");
 let BASE_URL = "https://economia.awesomeapi.com.br/json/last/USD-BRL";
 
 fetch(BASE_URL)
-  .then((response) => response.json())
-  .then((json) => {
-    //valueDol.textContent = json.USDBRL.ask;
+  .then(response => response.json())
+  .then(json => {
     let dol = (valueDol.innerHTML = json.USDBRL.ask);
     let converterDol = parseInt(dol);
 
     const amount = converterDol;
 
-    const formatBRL = (value) => {
+    const formatBRL = value => {
       const options = { style: "currency", currency: "BRL" };
       return value.toLocaleString("pt-BR", options);
     };
 
     formatBRL(amount);
-    //console.log(formatBRL(amount));
   });
 
 const form = document.getElementById("form");
@@ -49,8 +47,6 @@ function converter() {
     result.innerHTML = valueFormatter("pt-BR", "BRL");
   }
   animeteResult();
-  //   inputValue.value = "";
-  //   inputValue.value = "";
 }
 
 function valueFormatter(locale, currency) {
@@ -67,3 +63,12 @@ function animeteResult() {
     { duration: 500 }
   );
 }
+
+function displayFullYear(element) {
+  const year = document.querySelector(element);
+  const getYear = new Date().getFullYear();
+
+  year.innerText = getYear;
+}
+
+displayFullYear(".myDate");

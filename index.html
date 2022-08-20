@@ -1,59 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Converter</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
 
-    <link rel="stylesheet" href="./css/reset.css">
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/styles.css">
-    <link rel="stylesheet" href="./css/footer.css">
+    <link rel="stylesheet" href="./css/index.css" />
 
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,600&display=swap"
-        rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;0,600;1,600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
 
-</head>
-
-<body>
-
+  <body>
     <header>
-        <h1>💵Converter💶</h1>
+      <h1>💵Converter💶</h1>
     </header>
 
     <main>
-        <span class="title">Cotação Atual</span>
-        <p id="dol"></p>
-        <form id="form">
-            <section class="inputs-container">
-                <div class="form-group">
-                    <label for="value-real">Valor a ser convertido</label>
-                    <input type="number" placeholder="$ 10" id="value-real" name="value-real" max="1000000">
-                </div>
+      <span class="title">Cotação Atual</span>
+      <p id="dol"></p>
+      <form id="form">
+        <section class="inputs-container">
+          <div class="form-group">
+            <label for="value-real">Valor a ser convertido</label>
+            <input
+              type="number"
+              placeholder="$ 10"
+              id="value-real"
+              name="value-real"
+              max="1000000"
+            />
+          </div>
 
-                <div class="form-group">
-                    <label for="currency">Escolha a moeda</label>
-                    <select name="" id="currency">
-                        <option value="">Selecione...</option>
-                        <!-- <option value="eur">Euro</option> -->
-                        <option value="dol" selected>Dolar</option>
-                    </select>
-                </div>
-            </section>
-            <button type="submit">Converter</button>
-        </form>
-        <h2 id="result"></h2>
+          <div class="form-group">
+            <label for="currency">Escolha a moeda</label>
+            <select name="" id="currency">
+              <option value="">Selecione...</option>
+              <option value="dol" selected>Dollar</option>
+            </select>
+          </div>
+        </section>
+        <button type="submit">Converter</button>
+      </form>
+      <h2 id="result"></h2>
     </main>
 
     <footer>
-        &copy; todos os direitos reservados 2022.
+      <p>&copy; todos os direitos reservados <span class="myDate"></span></p>
     </footer>
 
     <script src="./script.js"></script>
-</body>
-
+  </body>
 </html>
